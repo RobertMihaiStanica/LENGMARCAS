@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>DATOS MEDICOS</h1>
+    </header>
+    <hr>
+    <form>
+      <p><strong>Nombre Apoderado</strong></p>
+        <input type="text" name="fname" placeholder="Nombre">
+        <input type="text" name="sname" placeholder="Apellido"><br>
+      <p><strong>RUT APODERADO</strong></p>
+        <input type="text" name="rut" placeholder="RUT APODERADO">
+      <p><strong>Correo electronico</strong></p>
+        <input type="text" name="mail" placeholder="Correo electronico">
+      <p><strong>RUT Niño, Niña o Joven</strong></p>
+        <input type="text" name="trut" placeholder="Correo electronico">
+    </form>
+    <hr>
+    <h2>FICHA MEDICA</h2>
+    <h3>POR FAVOR COMPLETAR DATOS MEDICOS DEL PARTICIPANTE EN LA ACTIVIDAD</h3>
+    <hr>
+    <form>
+      <p><strong>Direccion del participante</strong></p>
+        <input type="text" name="dir" placeholder="Direccion"><br>
+      <p><strong>Numero de telefono</strong></p>
+        <input type="number" name="telf" placeholder="Numero"><br>
+      <p><strong>Fecha de nacimiento</strong></p>
+        <input type="date" name="date"><br>
+      <p><strong>Sistema de salud</strong></p>
+        <input type="radio" id="fonsa" name="ssalud" value="FONSA">
+        <label for="fonsa">FONSA</label>
+        <input type="radio" id="isapre" name="ssalud" value="ISAPRE">
+        <label for="isapre">ISAPRE</label><br>
+        <input type="radio" id="particular" name="ssalud" value="PARTICULAR">
+        <label for="particular">PARTICULAR</label>
+        <input type="radio" id="farmadas" name="ssalud" value="FUERZAS ARMADAS">
+        <label for="farmadas">FUERZAS ARMADAS</label><br>
+        <input type="radio" id="otro" name="ssalud" placeholder="Otro">
+        <label for="otro">Otro</label>
+    </form>
+    <br>
+    <input type="submit">
+  </main>
+</body>
+</html>
